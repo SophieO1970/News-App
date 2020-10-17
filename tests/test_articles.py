@@ -7,7 +7,7 @@ class TestArticles(unittest.TestCase):
         self.new_articles = Articles("author",
                                      "title",
                                      "China plans a digital version of its currency, which some say could become a big global payment system.",
-                                     "https://image.tmdb.org/t/ptfukyy",
+                                     "https://ichef.bbci.co.uk/news/1024/branded_news/C414/production/_114569105_chandler.racks.jpg",
                                      "https://www.bbc.co.uk/news/business-54261382",
                                      "2020-09-24T23:16:08Z")
 
