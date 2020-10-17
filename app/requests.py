@@ -1,5 +1,5 @@
 import urllib.request,json
-from .models import Sources
+from .models import News
 
 # Getting api key
 api_key = None
