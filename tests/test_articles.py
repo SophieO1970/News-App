@@ -21,13 +21,13 @@ class TestArticles(unittest.TestCase):
         self.assertTrue(isinstance(self.new_articles,Articles))
 
 
-    # def test_check_instance_variables(self):
-    #     self.assertEquals(self.new_articles.author,'author')
-    #     self.assertEquals(self.new_articles.title,'title')
-    #     self.assertEquals(self.new_articles.description,'China plans a digital version of its currency, which some say could become a big global payment system.')
-    #     self.assertEquals(self.new_articles.urlToImage,"https://image.tmdb.org/t/ptfukyy")
-    #     self.assertEquals(self.new_articles.url,'https://www.bbc.co.uk/news/business-54261382')
-    #     self.assertEquals(self.new_articles.publishedAt,'2020-09-24T23:16:08Z')
+    def test_check_instance_variables(self):
+        self.assertEquals(self.new_articles.author,'author')
+        self.assertEquals(self.new_articles.title,'title')
+        self.assertEquals(self.new_articles.description,'China plans a digital version of its currency, which some say could become a big global payment system.')
+        self.assertEquals(self.new_articles.urlToImage,"https://ichef.bbci.co.uk/news/1024/branded_news/C414/production/_114569105_chandler.racks.jpg")
+        self.assertEquals(self.new_articles.url,'https://www.bbc.co.uk/news/business-54261382')
+        self.assertEquals(self.new_articles.publishedAt,'2020-09-24T23:16:08Z')
 
 
     # def test_save_articles(self):
