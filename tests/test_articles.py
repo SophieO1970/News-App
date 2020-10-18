@@ -30,10 +30,10 @@ class TestArticles(unittest.TestCase):
         self.assertEquals(self.new_articles.publishedAt,'2020-09-24T23:16:08Z')
 
 
-    # def test_save_articles(self):
+    # def test_save_article(self):
     #     '''
     #     test_save_article test case to test if the article object is saved into
     #      the article list
     #     '''
-    #     self.new_articles.test_save_articles() # saving the new article
-    #     self.assertEqual(len(Articles.all_articles),1)
+    #     self.new_article.save_article() # saving the new article
+    #     self.assertEqual(len(Article.all_articles),1)
