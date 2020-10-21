@@ -1,0 +1,13 @@
+.card{
+    width: 100%;
+    height: 55vh;
+}
+.body{
+    background-color: rgb(18, 19, 19);
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
